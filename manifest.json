@@ -1,0 +1,15 @@
+{
+  "name": "W3bApp",
+  "start_url": "localhost:8080/",
+  "description": "W3bApp | A set of Web Components to build apps",
+  "icons": [{
+    "src": "../batman.png",
+    "sizes": "400x400",
+    "type": "image/png"
+  },
+  {
+    "src": "../batman.png",
+    "sizes": "400x400",
+    "type": "image/png"
+  }]
+}

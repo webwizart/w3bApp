@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <script src='https://unpkg.com/@webcomponents/webcomponentsjs@2.0.0/webcomponents-loader.js'></script>
+    <script src='https://unpkg.com/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js'></script>
+    <link href='./w3bStyles.css' rel='stylesheet'>
+    <title>w3bApp</title>
+</head>
+
+<body>
+    <w3b-app></w3b-app>
+    <script src="https://unpkg.com/blockstack@19.4.0-beta.1/dist/blockstack.js"
+        integrity="sha384-UnkhaTA3XqTl/a79lTWO+C85bbXyM8IIUYtSLfrkkNQJcCxocVZv8nHaMzrvS9ZH"
+        crossorigin="anonymous"></script>
+    <script src='./components/app.js' type='module'></script>
+    <script src='./components/landing.js' type='module'></script>
+    <script src='./components/header.js' type='module'></script>
+    <script src='./components/w3bApp.js' type='module'></script>
+    <script src='./components/views/view.js' type='module'></script>
+    <script src='./components/views/dashboard.view.js' type='module'></script>t>
+    <script src='./components/navigation.js' type='module'></script>
+    <script>
+        let el = document.querySelector('w3b-app');
+        el.blockstack = blockstack;       
+    </script>
+</body>
+</html>
